@@ -19,8 +19,3 @@ const port = 3000;
 server.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
-
-ghAvatar('sindresorhus').then(avatar => {
-    console.log(avatar);
-    //=> 'https://avatars.githubusercontent.com/u/170270?v=3'
-});
